@@ -24,7 +24,8 @@ h1 {
 }
 
 .navbar img {
-  width: 15%;
+  width: 10%;
+  border-radius: 50%;
 }
 
 .custom-toggler,
@@ -48,8 +49,8 @@ h1 {
 
 /* HOME DESKTOP VIEW START */
 .content {
-  background: linear-gradient(to right, #212529 10%, transparent),
-    url("/Images/Gold\ and\ Black\ Luxury\ Initial\ Name\ Logo.png");
+  background: linear-gradient(to right, #212529 13%, transparent),
+    url("/Images/Gold_and_Black.png");
   background-position: top right;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -59,7 +60,7 @@ h1 {
 
 .content > div {
   padding: 15% 0;
-  background-size: 50%;
+  background-size: 60%;
 }
 
 .content > div > h1 {
@@ -87,7 +88,7 @@ h1 {
 
 /* ABOUT SECTION START */
 .about-parent {
-  height: 90vh;
+  height: 100vh;
 }
 
 #about {
@@ -103,13 +104,14 @@ h1 {
 
 /* SKILLS SECTION START */
 .skill {
-  height: 80vh;
+  height: 100vh;
 }
 /* SKILLS SECTION END */
 
 /* PORTFOLIO START */
 .port {
   height: 100vh;
+  /* margin-top: 8%; */
 }
 
 .port > .row a {
@@ -137,11 +139,20 @@ h1 {
   /* margin: 5% 0; */
   height: 70vh;
 }
+
+.my-resume > .more > a {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.my-resume > .more > a:hover {
+  color: #e9d27c;
+}
 /* RESUME END */
 
 /* CONTACT START */
 .footer {
-  margin: 5% 0;
+  margin: 7% 0 5% 0;
   padding: 7% 0;
   border: 1px solid #e9d27c;
   height: 70vh;
@@ -150,6 +161,12 @@ h1 {
 .footer a {
   text-decoration: none;
   color: white;
+  /* background-color: red; */
+}
+
+.footer-paragraph {
+  font-size: 14px;
+  margin-top: 5%;
 }
 
 .contact-me {
@@ -173,13 +190,13 @@ h1 {
 }
 
 .img-fluid {
-  width: 13%;
+  width: 30%;
   /* padding: 0 2%; */
 }
 
 .img-fluid img {
   text-align: center;
-  width: 30%;
+  width: 10%;
 }
 
 .img-flu img {
@@ -187,7 +204,8 @@ h1 {
   width: 3%;
 }
 .last img {
-  width: 3%;
+  width: 100%;
+  /* gap: 10%; */
 }
 /* CONTACT END */
 
