@@ -291,7 +291,7 @@ h1 {
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 568px) {
   nav {
     position: sticky;
   }
@@ -345,17 +345,17 @@ h1 {
 
 /* Skills */
 .skills-section {
-  margin-top: 110%;
+  margin-top: 70%;
 }
 
 /* Portfolio */
 .port {
-  margin-top: 75%;
+  margin-top: 55%;
 }
 
 /* Resume */
 .my-resume {
-  margin-top: 130%;
+  margin-top: 115%;
 }
 
 .resume {
@@ -365,8 +365,8 @@ h1 {
 
 /* CONTACT START */
 .footer {
-  margin: 295% 0 5% 0;
-  padding: 7% 0;
+  margin: 285% 0 5% 0;
+  padding: 20% 0 0 0;
   height: 100vh;
 }
 
@@ -605,31 +605,32 @@ h1 {
   
   .about-container .text-fluid{
     padding: 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   /* Skills */
 .skills-section {
-  margin-top: 17%;
+  margin-top: 0%;
 }
 
 /* Portfolio */
 .port {
-  margin-top: 8%;
+  margin-top: 4%;
 }
 
 /* Resume */
 .my-resume {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 /* CONTACT START */
 .footer {
-  margin: 25% 0 5% 0;
-  padding: 7% 0 7% 0;
+  margin: 20% 0 5% 0;
+  padding: 9% 0 7% 0;
   height: 100vh;
 }
 }
+
 
 @media (min-width: 1050px) and (max-width: 1680px) {
   /* .about-parent{
