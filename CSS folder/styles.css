@@ -95,6 +95,19 @@ h1 {
   margin-bottom: 5%;
 }
 
+.about-container .img-fluid {
+  width: 75%;
+}
+
+.about-container .img {
+  width: 100%;
+}
+
+.about-container .text-fluid{
+  padding: 0 3%;
+  font-size: 1.3rem;
+}
+
 /* @media screen and (max-width: 1728) and (min-width: 762) {
   .about-can {
     width: 100%;
@@ -103,7 +116,7 @@ h1 {
 /* ABOUT SECTION END */
 
 /* SKILLS SECTION START */
-.skill {
+.skills-section {
   height: 100vh;
 }
 /* SKILLS SECTION END */
@@ -279,41 +292,383 @@ h1 {
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .contain > .contain-1 {
-    padding: 16% 0 0 0;
+  nav {
+    position: sticky;
   }
 
-    .about-parent {
-    height: 170vh;
-    /* margin-bottom: 70%; */
+  .navbar img{
+    width: 25%;
   }
 
-  .about-parent img {
+  .navbar button{
+    width: 15%;
+  }
+
+  .navbar button:focus{
+    border: none;
+  }
+
+  .navbar button span{
+    width: 100%;
+  }
+
+  /* HOME MOBILE VIEW START */
+.contain > .contain-1 {
+  padding: 22% 0 0 0;
+}
+
+.contain > .contain-1 > img {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.contain > div > h1 {
+  font-size: 2.5rem;
+}
+/* HOME MOBILE VIEW END */
+
+/* About me */
+.about-parent .about-container .img-fluid {
+  width: 80%;
+  margin: 0 auto;
+}
+.about-parent .about-container .img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.about-container .text-fluid{
+  padding: 0;
+  font-size: 1rem;
+}
+
+/* Skills */
+.skills-section {
+  margin-top: 110%;
+}
+
+/* Portfolio */
+.port {
+  margin-top: 75%;
+}
+
+/* Resume */
+.my-resume {
+  margin-top: 130%;
+}
+
+.resume {
+  display: flex;
+  gap: 25px;
+}
+
+/* CONTACT START */
+.footer {
+  margin: 295% 0 5% 0;
+  padding: 7% 0;
+  height: 100vh;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer-paragraph {
+  font-size: 14px;
+  margin-top: 5%;
+}
+
+.contact-me {
+  z-index: 2;
+  background-color: #212529;
+}
+
+.images {
+  text-align: center;
+  /* width: 100%; */
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-flui{
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+.img-flui p{
+  font-size: 1rem;
+}
+
+.img-flui img {
+  text-align: center;
+  width: 15%;
+}
+
+.img-fluid{
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.img-fluid p{
+  font-size: 1rem;
+}
+
+.img-fluid img {
+  text-align: center;
+  width: 15%;
+}
+
+.img-flu{
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.img-flu p{
+  font-size: 1rem;
+}
+
+.img-flu img {
+  text-align: center;
+  width: 15%;
+}
+
+.last img {
+  width: 100%;
+  gap: 10px;
+}
+/* CONTACT END */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    position: sticky;
+  }
+
+  .navbar img{
+    width: 14%;
+  }
+
+  /* HOME MOBILE VIEW START */
+.contain > .contain-1 {
+  padding: 7% 0 0 0;
+}
+
+.contain > .contain-1 > img {
+  width: 35%;
+  margin-bottom: 3%;
+}
+
+.contain > div > h1 {
+  font-size: 2.5rem;
+}
+/* HOME MOBILE VIEW END */
+
+/* About me */
+.about-parent .about-container .img-fluid{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-parent .about-container .img-fluid .img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.about-container .text-fluid{
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+/* Skills */
+.skills-section {
+  margin-top: 50%;
+}
+
+/* Portfolio */
+.port {
+  margin-top: 25%;
+}
+
+/* Resume */
+.my-resume {
+  margin-top: 60%;
+}
+
+.resume {
+  display: flex;
+  /* gap: 2px 0; */
+}
+
+/* CONTACT START */
+.footer {
+  margin: 70% 0 5% 0;
+  padding: 17% 0 7% 0;
+  height: 100vh;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer-paragraph {
+  font-size: 14px;
+  margin-top: 5%;
+}
+
+.contact-me {
+  z-index: 2;
+  background-color: #212529;
+}
+
+.images {
+  text-align: center;
+  /* width: 100%; */
+}
+
+/* .links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.img-flui{
+  /* margin-top: 5%; */
+  width: 100%;
+  text-align: center;
+}
+
+.img-flui p{
+  font-size: 1.1rem;
+}
+
+.img-flui img {
+  text-align: center;
+  width: 12%;
+}
+
+.img-fluid{
+  width: 100%;
+  text-align: center;
+  /* margin-top: 5%; */
+}
+
+.img-fluid p{
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.img-fluid img {
+  width: 12%;
+}
+
+.img-flu{
+  width: 100%;
+  text-align: center;
+  /* margin-top: 5%; */
+}
+
+.img-flu p{
+  font-size: 1.1rem;
+}
+
+.img-flu img {
+  text-align: center;
+  width: 8%;
+}
+
+.last img {
+  width: 100%;
+  gap: 10px;
+}
+/* CONTACT END */
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  /* .about-parent{
     margin-bottom: 5%;
+  } */
+  
+  .about-parent .about-container .img-fluid .img{
+    width: 100%;
   }
+  
+  .about-container .text-fluid{
+    padding: 0;
+    font-size: 1.1rem;
+  }
+
+  /* Skills */
+.skills-section {
+  margin-top: 17%;
+}
+
+/* Portfolio */
+.port {
+  margin-top: 8%;
+}
+
+/* Resume */
+.my-resume {
+  margin-top: 20%;
+}
+
+/* CONTACT START */
+.footer {
+  margin: 25% 0 5% 0;
+  padding: 7% 0 7% 0;
+  height: 100vh;
+}
+}
+
+@media (min-width: 1050px) and (max-width: 1680px) {
+  /* .about-parent{
+    margin-top: 10%;
+    background-color: red;
+  } */
 
   #about {
-    font-size: 2.5rem;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
+  }
+  
+  .about-parent .about-container .img-fluid .img{
+    width: 100%;
+  }
+  
+  .about-container .text-fluid{
+    padding: 0;
+    font-size: 1.1rem;
   }
 
-  .skill {
-    height: 125vh;
-    /* margin-bottom: 5%; */
-  }
+  /* Skills */
+/* .skills-section {
+  margin-top: 17%;
+} */
 
-   .row {
-    margin-bottom: 20%;
-  }
+/* Portfolio */
+/* .port {
+  margin-top: 8%;
+} */
 
+/* Resume */
+/* .my-resume {
+  margin-top: 20%;
+} */
 
-  .port {
-    margin-top: 5%;
-    height: 170%;
-  }
-
-  .my-resume {
-  /* margin: 5% 0; */
-    height: 200vh;
-  }
+/* CONTACT START */
+/* .footer {
+  margin: 25% 0 5% 0;
+  padding: 7% 0 7% 0;
+  height: 100vh;
+} */
 }
