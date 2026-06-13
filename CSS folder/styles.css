@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +13,11 @@ html {
 body {
   /* background-color: dimgray; */
   background-color: #212529;
+}
+
+a {
+  font-weight: 500;
+    font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -62,10 +69,13 @@ h1 {
 .content > div {
   padding: 15% 0;
   background-size: 60%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .content > div > h1 {
   font-size: 3.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 .content > div span {
@@ -84,6 +94,8 @@ h1 {
 
 .contain > div > h1 {
   font-size: 2.5rem;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
 }
 /* HOME MOBILE VIEW END */
 
@@ -91,6 +103,7 @@ h1 {
 .about-parent {
   height: 70vh;
   margin-bottom: 13%;
+   font-family: "Montserrat", sans-serif;
 }
 
 #about {
@@ -120,6 +133,7 @@ h1 {
 /* SKILLS SECTION START */
 .skills-section {
   height: 80vh;
+   font-family: "Montserrat", sans-serif;
 }
 /* SKILLS SECTION END */
 
@@ -127,6 +141,7 @@ h1 {
 .port {
   height: 100vh;
   /* margin-top: 8%; */
+   font-family: "Montserrat", sans-serif;
 }
 
 .port > .row a {
@@ -151,6 +166,7 @@ h1 {
 
 /* RESUME START */
 .my-resume {
+   font-family: "Montserrat", sans-serif;
   /* margin: 5% 0; */
   height: 60vh;
 }
@@ -167,6 +183,7 @@ h1 {
 
 /* CONTACT START */
 .footer {
+   font-family: "Montserrat", sans-serif;
   margin: 7% 0 5% 0;
   padding: 7% 0;
   border: 1px solid #e9d27c;
